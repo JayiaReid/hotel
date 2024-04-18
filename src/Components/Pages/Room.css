@@ -1,0 +1,123 @@
+#book form input{
+    background-color: #41503B;
+    border: none;
+    padding: 0.5em;
+    width: 80%;
+    margin-right: 10px;
+}
+
+#book h1{
+    color: #BAD6C2;
+}
+
+#room_page header h1{
+    color: black;
+    border-left-color: black;
+    text-shadow: 2px 2px 5px #CC9A60;
+}
+
+#room_page .hotel_nav {
+    /* color: black; */
+}
+
+#room_page{
+    background-image: url('../../assets/room_page.jpg');
+    width: 100vw;
+}
+
+#book .date_form label{
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+#book{
+    background-color: rgba(0, 0, 0, 0.742);
+}
+
+ .hote_h1{
+    width: 80%
+}
+
+
+#book form{
+    width: 90%;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+#book form button{
+    background-color: #BAD6C2;
+    border: none;
+    transition: 1s ease;
+    padding: 0.5em;
+    width: 50%;
+}
+
+#book form input::placeholder {
+    color: black;
+}
+
+#book form input{
+    padding: 1em;
+    width: 100%
+}
+
+#book_page{
+    background-image: url('../../assets/booking.jpg');
+}
+
+.details_form{
+    margin-top:10px ;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rooms_shown{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos{
+    object-fit: cover;
+    width: 90%;
+    height: 90vh;
+    margin-left: 0;
+    padding: 0;
+}
+
+#rooms_shown .controls button{
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    /* padding-top: 5em;
+    padding-bottom: 5em; */
+    height: 100%;
+    position: absolute;
+    transition: 1s ease;
+    width: auto;
+}
+
+#prev{
+    left: 0;
+}
+
+#next{
+    right: 0;
+}
+
+#room_page .dark h1{
+    color: #CC9A60;
+}
+

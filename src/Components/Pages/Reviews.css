@@ -1,0 +1,46 @@
+#reviews_page {
+    background-image: url("../../assets/reviews.jpg");
+    height: 100vh;
+}
+
+#reviews_page nav .hotel_nav{
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+.reviews_s{
+    background-color: rgba(0, 0, 0, 0.679);
+    padding: 2em;
+}
+.reviews{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    text-align: left;
+    gap: 5px;
+}
+
+.reviews_s h1{
+    color: #F2CFA4;
+    font-style: italic;
+    text-align: center;
+}
+
+.review_p_t{
+    font-style: italic;
+    color: #F2CFA4;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.804);
+    padding: 1em;
+}
+
+.review h2{
+    color: #F2CFA4;
+}
