@@ -22,10 +22,6 @@ function App() {
           <Route path='/hotel/:hotel_id/:name/reviews' element={<Reviews/>}/>
           <Route path='/hotel/:hotel_id/:name/rooms/book' element={<Book/>}/>
           <Route path='/login' element={<LoginSignup/>}/>
-          {/* <Route path='/hotel/:hotel_id/:name/questions' element={<Questions/>}/>
-          <Route path='/hotel/:hotel_id/:name/nearby-places' element={<Nearby/>}/> */}
-          
-        
         </Routes>
       </BrowserRouter>
     </div>

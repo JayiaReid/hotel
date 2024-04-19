@@ -54,7 +54,7 @@ export default function Home(){
                     {/* <Link className="hotel_nav" to='/Login'>Login/SignUp Page</Link> */}
                 </nav>
                 <div id='home_intro'>
-                    <h1 id='h_h1'>Hotel Books: Andorra</h1>
+                    <h1 id='h_h1'>Hotel Books</h1>
                     <p id='h_p' style={{color: "white"}}>Filter by city, select a hotel and go from there!</p>
                 </div>
             </header>
@@ -74,7 +74,7 @@ export default function Home(){
                     </select>
                 </form>
                     <div id='catalogue'>
-                        <Catalogue search={searchInput} filter={filterType}/>
+                        <Catalogue type={dest} search={searchInput} filter={filterType}/>
                     </div>
                     {!searchInput && !filterType && <p>No Search</p>}
                     {searchInput && !filterType && <p>No city selected</p>}

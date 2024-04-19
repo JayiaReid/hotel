@@ -9,7 +9,7 @@ import { CiMail } from "react-icons/ci";
 import { FaLock } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
-const LoginSignup = () => { 
+const LoginSignup = () => { b
   const nav = useNavigate();
 
   const handleClick = (e) =>{
